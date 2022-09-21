@@ -33,3 +33,9 @@ In order to figure out if the mean PSI values are equal to the total mean of 150
 <img width="659" alt="t test4" src="https://user-images.githubusercontent.com/105998378/191416009-63c6e52d-a180-4e80-b0e1-9073e6c421ac.png">
 
 Given the usual signifigance level of .05 it is apparent that the coils from Lot 3 are significantly different from the norm, even though the lots as a whole show no major differences.
+
+## Study Design: MechaCar vs Competition
+
+If we were to compare MechaCar to its competitors we could use the metrics of cost, safety rating and overall fuel efficiency. If we were to test these metrics the null hypothesis would be that MechaCar is no different than its competitors, with the alternative being that MechaCar is better.
+
+For the method of testing I would use an ANOVA test to find out if there were significant differences between MechaCar and its competitors and then use t.tests to compare each manufacturer to MechaCar. I would group the tests by car class to keep things fair and limit bias.
