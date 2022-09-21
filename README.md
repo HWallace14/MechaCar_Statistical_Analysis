@@ -22,3 +22,14 @@ As you can see from the first (total summary) table, the variance is 62.29356, w
 
 ## T-Tests on Suspension Coils
 
+In order to figure out if the mean PSI values are equal to the total mean of 1500 for the lots and each individual lot I ran 4 different t.tests. See screenshots below:
+
+<img width="469" alt="t test1" src="https://user-images.githubusercontent.com/105998378/191415995-7446fc78-a665-4dc7-ac0d-2a6739262a88.png">
+
+<img width="658" alt="t test2" src="https://user-images.githubusercontent.com/105998378/191416002-bfe8e583-d810-45ca-9f67-8bf9f36a0af6.png">
+
+<img width="658" alt="t test3" src="https://user-images.githubusercontent.com/105998378/191416005-b00e84a0-b763-43b3-b809-08279b758c8f.png">
+
+<img width="659" alt="t test4" src="https://user-images.githubusercontent.com/105998378/191416009-63c6e52d-a180-4e80-b0e1-9073e6c421ac.png">
+
+Given the usual signifigance level of .05 it is apparent that the coils from Lot 3 are significantly different from the norm, even though the lots as a whole show no major differences.
